@@ -1,0 +1,168 @@
+.dashboard_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+  background-color: #03123d;
+}
+
+.__dashboard_content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50rem;
+  padding: 50px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.main_app {
+  overflow-y: hidden;
+  height: 100vh;
+  width: 100%;
+}
+
+.start_wars_logo {
+  width: 12rem;
+}
+
+.__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.__input_search {
+  background-color: #03123d;
+  border: 1px solid #ffffff;
+  width: 20rem;
+  height: 3rem;
+}
+
+.card_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.__card_footer {
+  display: flex;
+  padding: 0px 10px;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  width: 19rem;
+  border-radius: 10px;
+  background-color: rgba(249, 250, 253, 0.2);
+}
+
+.__card_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  max-height: 13rem;
+  max-width: 19rem;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.__menu_item_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(249, 250, 253, 0.2);
+  border-radius: 8px;
+}
+
+.__list_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+.__table_wrapper {
+  display: flex;
+  width: 92rem;
+  flex: 1;
+}
+
+.__list_header {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.__grid_wrapper {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  gap: 1px;
+}
+
+.__selected {
+  display: flex;
+  background-color: white;
+  opacity: 10;
+  padding: 3px;
+}
+.__normal {
+  display: flex;
+  padding: 3px;
+}
+
+.__popover_content {
+  display: flex;
+  gap: 3px;
+  flex: 1;
+  max-width: fit-content;
+}
+
+.__popover_label {
+  width: 100px;
+}
+
+.___caution {
+  .css-ahj2mt-MuiTypography-root {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+.__deleteModal {
+  .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    width: 400px;
+    border-radius: 12px;
+    height: 200px;
+  }
+}
+
+.__textfield {
+  .css-ittuaa-MuiInputAdornment-root {
+    color: white;
+  }
+
+  .css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root {
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+  }
+}
+
+
+.__loader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100rem;
+}
